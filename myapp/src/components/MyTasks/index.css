@@ -1,0 +1,152 @@
+.bg-container {
+  background-color: white;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+.create-task {
+  background-color: #131213;
+  min-height: 100vh;
+  background-size: cover;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #f3aa4e;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.form-container {
+  padding: 10px;
+  margin: 10px;
+}
+
+.each-label {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.label {
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+
+.input {
+  width: 85%;
+  height: 35px;
+  outline: none;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: #f3aa4e;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 120px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-list {
+  background-color: #000000;
+  min-height: 100vh;
+  background-size: cover;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.tag-heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  color: white;
+}
+
+.buttons-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tasks-heading {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.no-tasks {
+  color: white;
+  font-size: 35px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: bold;
+}
+
+.each-task {
+  width: 95%;
+  background-color: #1a171d;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.each-lits-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.each-list-task {
+  color: white;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.each-list-tag {
+  background-color: #f3aa4e;
+  border-radius: 10px;
+  color: #1a171d;
+  font-size: 15px;
+  width: 110px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+.list-class {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+}
+
+.buttons {
+  width: 100px;
+  height: 30px;
+  border: 2px solid #f3aa4e;
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #f3aa4e;
+}
